@@ -17,8 +17,11 @@ An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It li
 - **Snap Zones**: drag a window onto the notch to tile it
 - **The closed notch**: pick what its left and right show (weather, battery, date, next prayer, event, task or temperature), a clock in the middle that stays while music plays, **auto-hide**, and a hide button (or a double right-click) that tucks Poni away to a thin handle
 - **Touchscreen support**: taps on Poni reach Poni, taps beside it go to the window behind
-- **HUD** for volume and brightness, and an optional 3D cat that watches your mouse (click it to chat)
-- **AI Chat** and **Translate** with Google Gemini (free API key from Google AI Studio), Claude, any OpenAI-compatible API, or local Ollama. AI Chat knows your day and how your PC is doing, and can add todos, reminders, notes and calendar events, start Pomodoro or open your apps, with Undo
+- **Windows notifications in Poni**: messages, mail and browser notifications stack under the closed notch, each for as long as you choose, and a click opens the app; Poni can turn off Windows' own pop-up so they don't show twice
+- **Cat Buddy**: a 3D cat under Poni that watches your mouse, bobs along to music and dozes off when you leave; click it to chat. On from the start, with five fur colors
+- **Cute cursors**: cat-themed mouse pointers in every app (a paw arrow, a paw for links, a ball of yarn while loading) in seven colors, or your own cursor pack; Windows' own come back when you turn them off
+- **HUD** for volume and brightness
+- **AI Chat** and **Translate** with Google Gemini (free API key from Google AI Studio), Claude, any OpenAI-compatible API, or local Ollama. AI Chat knows your day and how your PC is doing, can add todos, reminders, notes and calendar events, start Pomodoro or open your apps, with Undo, and can send you a brief on the days and times you pick
 - **GitHub** pull requests waiting for your review
 
 ## Updates
@@ -48,7 +51,7 @@ Windows SmartScreen may warn on first run because the app isn't code-signed with
 
 ## Privacy
 
-Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: weather (Open-Meteo, on from the start), prayer times (api.myquran.com in Indonesia, Aladhan elsewhere), your calendar links, GitHub, AI chat and translation (the provider you pick), lyrics (LRCLIB, if you turn them on), and update checks. AI chats stay on this PC.
+Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: weather (Open-Meteo, on from the start), prayer times (api.myquran.com in Indonesia, Aladhan elsewhere), your calendar links, GitHub, AI chat and translation (the provider you pick), lyrics (LRCLIB, if you turn them on), and update checks. AI chats stay on this PC, and Windows notifications shown in Poni are read on this PC and never sent anywhere.
 
 ## What's new
 
