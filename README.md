@@ -2,28 +2,29 @@
 
 An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It lives at the top of your screen: hover over it to open it, drag files onto it, or press `Alt+N`.
 
-**[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`. Website and demo video: **[poni.web.id](https://poni.web.id/)**. How to use every feature: **[the Poni guide](https://poni.web.id/en/guide/)**.
+**[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`. Website: **[poni.web.id](https://poni.web.id/)**. How to use every feature: **[the Poni guide](https://poni.web.id/en/guide/)**.
 
 ## Features
 
-- **Music**: album art with color glow, live visualizer, and controls for any player in the Windows media controls (Spotify, browsers, VLC and more), plus **lyrics** that follow the song (from LRCLIB, off until you turn them on)
+- **Music**: album art with color glow, live visualizer, and controls for any player in the Windows media controls (Spotify, browsers and more) and VLC, plus **lyrics** that follow the song (from LRCLIB, off until you turn them on), right inside the closed notch if you like, with Korean, Japanese and Chinese lyrics in Latin letters or translated, and a song progress bar
 - **Dashboard**: weather, quick toggles (Wi-Fi, Bluetooth, keep awake, dark mode, mute mic, lock), app launcher, day progress, prayer times
 - **Control**: like Windows Quick Settings, with Wi-Fi and Bluetooth lists, toggles, brightness and volume sliders, and picking the sound output and microphone
-- **Calendar**: Google Calendar, Outlook or any iCal (.ics) link, with meeting reminders in the notch and a Calendar tab with a month view
-- **Todo** with due times, repeating tasks and a countdown in the closed notch where you can tick tasks off; late tasks can tick themselves off. **Notes, Pomodoro** with a stopwatch, **Weather, Health** (water with reminders, breaks, breathing, 20-20-20 eye breaks)
-- **Prayer times**: reminders for the five daily prayers with a countdown in the closed notch (the Kemenag RI schedule in Indonesia, your local authority elsewhere), and an adhan from your own recording
-- **Dock**: a bar of your apps at the bottom with magnifying icons, in Dark or Glass, that can stand in for the Windows taskbar (off until you turn it on)
+- **Calendar**: Google Calendar, Outlook or any iCal (.ics) link, with meeting reminders in the notch, a Calendar tab with a month view, and event details with a Join button
+- **Todo** with due times you can type in everyday words (Indonesian or English), repeating tasks, snooze, and a countdown in the closed notch where you can tick tasks off; late tasks can tick themselves off. **Notes, Pomodoro** with a stopwatch, **Weather, Health** (water with reminders, breaks, breathing, 20-20-20 eye breaks)
+- **Prayer times**: a Prayer Times tab and reminders for the five daily prayers with a countdown in the closed notch (the Kemenag RI schedule in Indonesia, your local authority elsewhere), and an adhan from your own recording
+- **Dock**: a bar of your apps at the bottom with magnifying icons in one rounded shape, in five styles (Black, White, Clear Glass, Frosted Glass, Midnight), on one display or all of them. It can stand in for the Windows taskbar with a Start and a Task View button, your other apps' tray icons, the time and status, and lists an app's windows when you rest the mouse on it (off until you turn it on)
 - **FPS counter** for games, with CPU and GPU, in the closed notch (off until you turn it on; Windows asks for permission once)
 - **Wi-Fi & Bluetooth**: radio switches, join Wi-Fi networks right in Poni, connect/disconnect headphones and speakers, device battery levels
 - **Screen Time, Day Progress, System stats** with CPU and GPU load and temperatures (when Windows shares them, no admin or driver needed), and a System summary that pops up in the closed notch now and then
 - **Shelf and Drop Actions**: zip, extract, convert images, copy/move, OneDrive, Share, Recycle Bin
 - **Snap Zones**: drag a window onto the notch to tile it
-- **The closed notch**: pick what its left and right show (weather, battery, date, next prayer, event, task, temperature, CPU, memory, disk or Wi-Fi), a clock in the middle that stays while music plays, **auto-hide** that can come down while you're idle, and a hide button (or a double right-click) that tucks Poni away to a thin handle
+- **Your look**: Poni in black, any color, glass, or frosted glass, attached to the top edge or floating a little below it
+- **The closed notch**: pick what its left and right show (weather, battery, date, next prayer, event, task, temperature, CPU, memory, disk or Wi-Fi), a clock in the middle that stays while music plays, **auto-hide** (always, or while the apps you pick are in front) that can come down while you're idle, and a hide button (or a double right-click) that tucks Poni away to a thin handle
 - **Touchscreen support**: taps on Poni reach Poni, taps beside it go to the window behind
-- **Windows notifications in Poni**: messages, mail and browser notifications stack under the closed notch, each for as long as you choose, and a click opens the app; Poni can turn off Windows' own pop-up so they don't show twice
+- **Windows notifications in Poni**: messages, mail and browser notifications stack under the closed notch, each for as long as you choose, and a click opens the app; a history keeps them for a few days, they follow Do not disturb, and Poni can turn off Windows' own pop-up so they don't show twice
 - **Cat Buddy**: a 3D cat under Poni that watches your mouse, bobs along to music and dozes off when you leave; click it to chat. On from the start, with five fur colors
 - **Cute cursors**: cat-themed mouse pointers in every app (a paw arrow, a paw for links, a ball of yarn while loading) in seven colors, or your own cursor pack; Windows' own come back when you turn them off
-- **HUD** for volume and brightness
+- **HUD** for volume, brightness and Caps Lock / Num Lock
 - **AI Chat** and **Translate** with Google Gemini (free API key from Google AI Studio), Claude, any OpenAI-compatible API, or local Ollama. AI Chat knows your day and how your PC is doing, can add todos, reminders, notes and calendar events, start Pomodoro or open your apps, with Undo, and can send you a brief on the days and times you pick
 - **GitHub** pull requests waiting for your review
 
@@ -54,7 +55,7 @@ Windows SmartScreen may warn on first run because the app isn't code-signed with
 
 ## Privacy
 
-Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: weather (Open-Meteo, on from the start), prayer times (api.myquran.com in Indonesia, Aladhan elsewhere), your calendar links, GitHub, AI chat and translation (the provider you pick), lyrics (LRCLIB, if you turn them on), and update checks. AI chats stay on this PC, and Windows notifications shown in Poni and the FPS counter's frame counts are read on this PC and never sent anywhere.
+Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: weather (Open-Meteo, on from the start), prayer times (api.myquran.com in Indonesia, Aladhan elsewhere), your calendar links, GitHub, AI chat and translation (the provider you pick), lyrics (LRCLIB, if you turn them on), and update checks. AI chats stay on this PC, the notification history is kept encrypted on this PC, Windows notifications shown in Poni, the Dock's tray icons and the FPS counter's frame counts are read on this PC and never sent anywhere, and the optional VLC web interface is only reached on this PC.
 
 ## What's new
 
