@@ -12,7 +12,7 @@ An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It li
 - **Calendar**: Google Calendar, Outlook or any iCal (.ics) link, with meeting reminders in the notch, a Calendar tab with a month view, and event details with a Join button
 - **Todo** with due times you can type in everyday words (Indonesian or English), repeating tasks, snooze, and a countdown in the closed notch where you can tick tasks off; late tasks can tick themselves off. **Notes, Pomodoro** with a stopwatch, **Weather, Health** (water with reminders, breaks, breathing, 20-20-20 eye breaks)
 - **Prayer times**: a Prayer Times tab and reminders for the five daily prayers with a countdown in the closed notch (the Kemenag RI schedule in Indonesia, your local authority elsewhere), and an adhan from your own recording
-- **Dock**: a bar of your apps at the bottom with magnifying icons in one rounded shape, in five styles (Black, White, Clear Glass, Frosted Glass, Midnight), on one display or all of them. It can stand in for the Windows taskbar with a Start and a Task View button, your other apps' tray icons, the time and status, and lists an app's windows when you rest the mouse on it (off until you turn it on)
+- **Dock**: a bar of your apps at the bottom with magnifying icons in one rounded shape, in five styles (Black, White, Clear Glass, Frosted Glass, Midnight), on one display or all of them. It can stand in for the Windows taskbar with a Start and a Task View button, your other apps' tray icons (left and right click), a keyboard language menu, the time and status, the next prayer and a Show desktop button, and lists an app's windows when you rest the mouse on it (off until you turn it on)
 - **FPS counter** for games, with CPU and GPU, in the closed notch (off until you turn it on; Windows asks for permission once)
 - **Wi-Fi & Bluetooth**: radio switches, join Wi-Fi networks right in Poni, connect/disconnect headphones and speakers, device battery levels
 - **Screen Time, Day Progress, System stats** with CPU and GPU load and temperatures (when Windows shares them, no admin or driver needed), and a System summary that pops up in the closed notch now and then
@@ -22,10 +22,14 @@ An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It li
 - **The closed notch**: pick what its left and right show (weather, battery, date, next prayer, event, task, temperature, CPU, memory, disk or Wi-Fi), a clock in the middle that stays while music plays, **auto-hide** (always, or while the apps you pick are in front) that can come down while you're idle, and a hide button (or a double right-click) that tucks Poni away to a thin handle
 - **Touchscreen support**: taps on Poni reach Poni, taps beside it go to the window behind
 - **Windows notifications in Poni**: messages, mail and browser notifications stack under the closed notch, each for as long as you choose, and a click opens the app; a history keeps them for a few days, they follow Do not disturb, and Poni can turn off Windows' own pop-up so they don't show twice
-- **Cat Buddy**: a 3D cat under Poni that watches your mouse, bobs along to music and dozes off when you leave; click it to chat. On from the start, with five fur colors
+- **Cat Buddy**: a 3D cat under Poni that watches your mouse, bobs along to music and dozes off when you leave; click it to chat. On from the start, with five fur colors, or put your own picture (even a GIF) in its place
 - **Cute cursors**: cat-themed mouse pointers in every app (a paw arrow, a paw for links, a ball of yarn while loading) in seven colors, or your own cursor pack; Windows' own come back when you turn them off
-- **HUD** for volume, brightness and Caps Lock / Num Lock
+- **HUD** for volume, brightness, Caps Lock / Num Lock, airplane mode, the microphone and the touchpad; Poni can hide Windows' own brightness pop-up and your laptop maker's boxes while it shows the same thing
 - **AI Chat** and **Translate** with Google Gemini (free API key from Google AI Studio), Claude, any OpenAI-compatible API, or local Ollama. AI Chat knows your day and how your PC is doing, can add todos, reminders, notes and calendar events, start Pomodoro or open your apps, with Undo, and can send you a brief on the days and times you pick
+- **Radio**: internet radio stations from Radio Browser, with favourites, right in Poni (off until you turn it on)
+- **Bookmarks**: save links in your own categories; copy a link and save it in one click (off until you turn it on)
+- **Languages**: English and Bahasa Indonesia (following Windows by default), right-to-left layouts, and [translation files](translations/) anyone can help with
+- **Back up and restore** Poni's settings and data to move to another PC
 - **GitHub** pull requests waiting for your review
 
 ## Updates
@@ -55,7 +59,7 @@ Windows SmartScreen may warn on first run because the app isn't code-signed with
 
 ## Privacy
 
-Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: weather (Open-Meteo, on from the start), prayer times (api.myquran.com in Indonesia, Aladhan elsewhere), your calendar links, GitHub, AI chat and translation (the provider you pick), lyrics (LRCLIB, if you turn them on), and update checks. AI chats stay on this PC, the notification history is kept encrypted on this PC, Windows notifications shown in Poni, the Dock's tray icons and the FPS counter's frame counts are read on this PC and never sent anywhere, and the optional VLC web interface is only reached on this PC.
+Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: weather (Open-Meteo, on from the start), prayer times (api.myquran.com in Indonesia, Aladhan elsewhere), your calendar links, GitHub, AI chat and translation (the provider you pick), lyrics (LRCLIB, if you turn them on) and album art Windows doesn't give (Deezer), radio stations (Radio Browser, if you turn the Radio tab on), the title and icon of a link you bookmark, and update checks. Once a day the update check adds one to that day's usage count on poni.web.id, counted by country as Cloudflare reports it, and that's all (no ID for your PC, no version or language; only today's numbers are kept, no IP addresses) so we know how many people use Poni and where; turn it off in Settings → About and updates are checked on GitHub directly. AI chats stay on this PC, the notification history is kept encrypted on this PC, Windows notifications shown in Poni, the Dock's tray icons and the FPS counter's frame counts are read on this PC and never sent anywhere, and the optional VLC web interface is only reached on this PC.
 
 ## What's new
 
