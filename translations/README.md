@@ -9,6 +9,7 @@ language too, or fix a word that reads wrong. This folder only holds Poni's text
 |---|---|
 | `en.json` | Every text Poni shows, in English. Use it as a reference. |
 | `id.json` | Bahasa Indonesia (complete). |
+| `fr.json` | French (complete, by MaximeDawn). |
 | `ar.json` | Arabic (open: every text is there, the translations are still empty). |
 | `uk.json` | Ukrainian (open: every text is there, the translations are still empty). |
 
