@@ -10,6 +10,7 @@ language too, or fix a word that reads wrong. This folder only holds Poni's text
 | `en.json` | Every text Poni shows, in English. Use it as a reference. |
 | `id.json` | Bahasa Indonesia (complete). |
 | `ar.json` | Arabic (open: every text is there, the translations are still empty). |
+| `uk.json` | Ukrainian (open: every text is there, the translations are still empty). |
 
 Each line is `"English text": "translation"`. Only the right-hand side is yours. A translation left empty (`""`) shows
 in English for now, so you can translate a bit at a time and still try it out.
@@ -19,8 +20,8 @@ in English for now, so you can translate a bit at a time and still try it out.
 1. **A new language?** Open an issue and say which one. I'll add an empty file for it, with every text in place.
 2. **Translate:** fill in the right-hand side of your language's file. Don't change the English on the left.
 3. **Send it:** a pull request, or attach the file to your issue. Halfway is fine.
-4. **Try it:** I'll send you a test build so you can see your words in Poni before it's released (Settings → General
-   → Language).
+4. **Try it:** your language comes with the next version of Poni after it's in (Settings → General → Language). Texts
+   added to Poni since then are filled in for you, and corrections are always welcome.
 
 ## A few rules
 
