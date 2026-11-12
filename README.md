@@ -6,7 +6,7 @@ An interactive notch for Windows 10 and 11, like Dynamic Island, with a Mac-styl
 
 <p align="center">
   <a href="https://github.com/liimalim/Poni/releases/latest"><img src="https://img.shields.io/github/v/release/liimalim/Poni?label=latest" alt="Latest release"></a>
-  <a href="https://poni.web.id/en/stats/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fponi.web.id%2Fapi%2Ftoday&query=%24.yesterday.users&label=daily%20users&color=brightgreen" alt="PCs that used Poni yesterday"></a>
+  <a href="https://poni.web.id/en/stats/"><img src="https://img.shields.io/badge/daily%20users-7k%2B-brightgreen" alt="Over 7,000 PCs use Poni every day"></a>
   <a href="https://github.com/liimalim/Poni/stargazers"><img src="https://img.shields.io/github/stars/liimalim/Poni?style=flat" alt="Stars"></a>
 </p>
 
