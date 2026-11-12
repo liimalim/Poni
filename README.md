@@ -1,12 +1,12 @@
 # Poni
 
-A Dynamic Island and a Mac-style Dock for Windows 10 and 11, with a Beta for Mac and Linux. Free, no ads, no account.
+An interactive notch for Windows 10 and 11, like Dynamic Island, with a Mac-style Dock. Beta for Mac and Linux. Free, no ads, no account.
 
 <p align="center"><img src="assets/poni-home.png" alt="Poni open at the top of the screen: the song playing with its album art, today's calendar and Mirror" width="760"></p>
 
 <p align="center">
   <a href="https://github.com/liimalim/Poni/releases/latest"><img src="https://img.shields.io/github/v/release/liimalim/Poni?label=latest" alt="Latest release"></a>
-  <a href="https://github.com/liimalim/Poni/releases"><img src="https://img.shields.io/github/downloads/liimalim/Poni/total" alt="Downloads"></a>
+  <a href="https://poni.web.id/en/stats/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fponi.web.id%2Fapi%2Ftoday&query=%24.yesterday.users&label=daily%20users&color=brightgreen" alt="PCs that used Poni yesterday"></a>
   <a href="https://github.com/liimalim/Poni/stargazers"><img src="https://img.shields.io/github/stars/liimalim/Poni?style=flat" alt="Stars"></a>
 </p>
 
