@@ -13,9 +13,13 @@ here.
 | `fr.json` | French (complete, by MaximeDawn). |
 | `pl.json` | Polish (complete, by kasper-pawlowski). |
 | `tr.json` | Turkish (complete, by ferdibisus). |
-| `ar.json` | Arabic (open: every text is there, the translations are still empty). |
+| `ar.json` | Arabic (complete, by M07amedHassan99). |
 | `uk.json` | Ukrainian (complete, by MrBooomber). |
 | `ru.json` | Russian (complete, by Jemmrock). |
+| `zh.json` | Simplified Chinese (complete, by HumorSeth). |
+| `ja.json` | Japanese (complete, by rogervokma-stack). |
+| `es.json` | Spanish (complete, by Snoku). |
+| `vi.json` | Vietnamese (complete; corrections welcome). |
 | `languages.json` | The list of languages Poni offers. |
 
 Each line is `"English text": "translation"`. Only the right-hand side is yours. A translation left empty (`""`) shows
