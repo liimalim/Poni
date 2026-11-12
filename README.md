@@ -1,12 +1,36 @@
 # Poni
 
-An interactive notch for Windows 10 and 11, with a Beta for Mac and Linux (formerly "Notch for Windows"). It lives at the top of your screen: hover over it to open it, drag files onto it, or press `Alt+N`.
+A Dynamic Island and a Mac-style Dock for Windows 10 and 11, with a Beta for Mac and Linux. Free, no ads, no account.
+
+<p align="center"><img src="assets/poni-home.png" alt="Poni open at the top of the screen: the song playing with its album art, today's calendar and Mirror" width="760"></p>
+
+<p align="center">
+  <a href="https://github.com/liimalim/Poni/releases/latest"><img src="https://img.shields.io/github/v/release/liimalim/Poni?label=latest" alt="Latest release"></a>
+  <a href="https://github.com/liimalim/Poni/releases"><img src="https://img.shields.io/github/downloads/liimalim/Poni/total" alt="Downloads"></a>
+  <a href="https://github.com/liimalim/Poni/stargazers"><img src="https://img.shields.io/github/stars/liimalim/Poni?style=flat" alt="Stars"></a>
+</p>
+
+Poni lives at the top of your screen (it used to be called "Notch for Windows"): hover over it to open it, drag files onto it, or press `Alt+N`.
 
 **[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`. Website: **[poni.web.id](https://poni.web.id/)**. How to use every feature: **[the Poni guide](https://poni.web.id/en/guide/)**.
 
 **Mac and Linux (Beta)**: get the `.dmg`, `.AppImage` or `.deb` from **[poni.web.id/unduh/mac-linux](https://poni.web.id/unduh/mac-linux/?lang=en)** (free, or pay what you want). Some Windows-only parts (the Dock, Snap Zones, the Wi-Fi and Bluetooth lists and a few more) aren't there yet.
 
-## Features
+If Poni is useful to you, a ⭐ on this repo helps other people find it.
+
+## Highlights
+
+- **Music**: album art, a live visualizer and lyrics that follow the song, even inside the closed notch
+- **Dock**: can stand in for the taskbar, with magnifying icons, five styles and windows that come out of their icon
+- **At a glance**: Windows notifications, meetings, prayer times and to-dos with a countdown in the closed notch
+- **Shelf**: drop files on Poni to zip, convert or share them, plus a clipboard history and files from your phone
+- **AI Chat** with Gemini, Claude, any OpenAI-compatible API or Ollama, which can add reminders and notes for you
+- **Buddy**: a 3D cat, dog or owl that watches your mouse and dozes off when you leave
+- **Your look**: black, any color, glass or frosted glass, at the top edge or floating below it
+
+## All features
+
+<details><summary>Show every feature</summary>
 
 - **Music**: album art with color glow, live visualizer, and controls for any player in the Windows media controls (Spotify, browsers and more) and VLC, plus **lyrics** that follow the song (from LRCLIB, off until you turn them on), right inside the closed notch if you like, with Korean, Japanese and Chinese lyrics in Latin letters or translated, a search to pick the right lyrics yourself, and a song progress bar
 - **Dashboard**: weather, quick toggles (Wi-Fi, Bluetooth, keep awake, dark mode, mute mic, lock), app launcher, day progress, prayer times
@@ -40,6 +64,8 @@ An interactive notch for Windows 10 and 11, with a Beta for Mac and Linux (forme
 - **Back up and restore** Poni's settings and data to move to another PC
 - **GitHub** pull requests waiting for your review
 
+</details>
+
 ## Updates
 
 The installed (Setup) version checks this page for new versions and updates itself (Settings → About). Every update is signed, so Poni only installs files signed by the author. The portable version shows a notice instead.
@@ -54,6 +80,8 @@ Poni is free. If it helps you, you can treat the developer to a coffee:
 - **QRIS** (Indonesia: GoPay, OVO, DANA, ShopeePay, mobile banking)
 
   <img src="assets/qris.jpg" alt="QRIS Bos Digital" width="260">
+
+No coffee money right now? A ⭐ on this repo is free and helps just as much.
 
 In Poni, click the cup button next to the settings gear (or open Settings → About). Made by **Alim AJ** · Bos Digital.
 
