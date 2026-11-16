@@ -12,7 +12,7 @@ An interactive notch for Windows 10 and 11, like Dynamic Island, with a Mac-styl
 
 Poni lives at the top of your screen (it used to be called "Notch for Windows"): hover over it to open it, drag files onto it, or press `Alt+N`.
 
-**[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`. Website: **[poni.web.id](https://poni.web.id/)**. How to use every feature: **[the Poni guide](https://poni.web.id/en/guide/)**.
+**[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`. Or get it from the **[Microsoft Store](https://apps.microsoft.com/detail/9PM6MJ7BMGD8)**: no Windows warning, and the Store keeps it up to date (its version can be a little behind). Website: **[poni.web.id](https://poni.web.id/)**. How to use every feature: **[the Poni guide](https://poni.web.id/en/guide/)**.
 
 **Mac and Linux (Beta)**: get the `.dmg`, `.AppImage` or `.deb` from **[poni.web.id/unduh/mac-linux](https://poni.web.id/unduh/mac-linux/?lang=en)** (free, or pay what you want). Some Windows-only parts (the Dock, Snap Zones, the Wi-Fi and Bluetooth lists and a few more) aren't there yet.
 
@@ -103,4 +103,4 @@ What changed in every version: **[release notes](https://poni.web.id/en/release-
 
 ---
 
-**Bahasa Indonesia:** Poni adalah notch interaktif di bagian atas layar Windows (dulu bernama Notch for Windows). Unduh **Setup** dari [Releases](https://github.com/liimalim/Poni/releases/latest) supaya Poni bisa update otomatis. Cara pakai semua fiturnya ada di [Panduan Poni](https://poni.web.id/panduan/). Kalau Poni bermanfaat, kamu bisa traktir developernya lewat QRIS di atas.
+**Bahasa Indonesia:** Poni adalah notch interaktif di bagian atas layar Windows (dulu bernama Notch for Windows). Unduh **Setup** dari [Releases](https://github.com/liimalim/Poni/releases/latest) supaya Poni bisa update otomatis, atau pasang dari [Microsoft Store](https://apps.microsoft.com/detail/9PM6MJ7BMGD8) tanpa peringatan Windows. Cara pakai semua fiturnya ada di [Panduan Poni](https://poni.web.id/panduan/). Kalau Poni bermanfaat, kamu bisa traktir developernya lewat QRIS di atas.
