@@ -101,6 +101,12 @@ Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: 
 
 What changed in every version: **[release notes](https://poni.web.id/en/release-notes/)** ([Bahasa Indonesia](https://poni.web.id/catatan-rilis/)).
 
+## Roadmap and ideas
+
+What's ready for the next update, what's planned and which ideas are being weighed: **[the Poni roadmap](https://poni.web.id/en/roadmap/)** ([Bahasa Indonesia](https://poni.web.id/rencana/)). You can back the ideas you want there.
+
+Have an idea or found a bug? **[Open an issue](https://github.com/liimalim/Poni/issues/new)**, in English or Indonesian. Issues are what the roadmap is built from, so nothing gets lost.
+
 ---
 
-**Bahasa Indonesia:** Poni adalah notch interaktif di bagian atas layar Windows (dulu bernama Notch for Windows). Unduh **Setup** dari [Releases](https://github.com/liimalim/Poni/releases/latest) supaya Poni bisa update otomatis, atau pasang dari [Microsoft Store](https://apps.microsoft.com/detail/9PM6MJ7BMGD8) tanpa peringatan Windows. Cara pakai semua fiturnya ada di [Panduan Poni](https://poni.web.id/panduan/). Kalau Poni bermanfaat, kamu bisa traktir developernya lewat QRIS di atas.
+**Bahasa Indonesia:** Poni adalah notch interaktif di bagian atas layar Windows (dulu bernama Notch for Windows). Unduh **Setup** dari [Releases](https://github.com/liimalim/Poni/releases/latest) supaya Poni bisa update otomatis, atau pasang dari [Microsoft Store](https://apps.microsoft.com/detail/9PM6MJ7BMGD8) tanpa peringatan Windows. Cara pakai semua fiturnya ada di [Panduan Poni](https://poni.web.id/panduan/). Yang sedang dikerjakan dan ide yang sedang ditimbang ada di [Rencana Poni](https://poni.web.id/rencana/); punya ide atau menemukan bug, tulis di [GitHub Issues](https://github.com/liimalim/Poni/issues/new). Kalau Poni bermanfaat, kamu bisa traktir developernya lewat QRIS di atas.
