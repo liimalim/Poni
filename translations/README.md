@@ -20,6 +20,7 @@ here.
 | `ja.json` | Japanese (complete, by rogervokma-stack). |
 | `es.json` | Spanish (complete, by Snoku). |
 | `vi.json` | Vietnamese (complete; corrections welcome). |
+| `pt.json` | Brazilian Portuguese (complete; corrections welcome). |
 | `languages.json` | The list of languages Poni offers. |
 
 Each line is `"English text": "translation"`. Only the right-hand side is yours. A translation left empty (`""`) shows
