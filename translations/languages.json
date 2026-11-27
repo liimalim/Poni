@@ -13,6 +13,6 @@
     { "code": "es", "name": "Español", "ready": true },
     { "code": "vi", "name": "Tiếng Việt", "ready": true },
     { "code": "pt", "name": "Português (Brasil)", "ready": true },
-    { "code": "ur", "name": "اردو", "ready": false, "rtl": true }
+    { "code": "ur", "name": "اردو", "ready": true, "rtl": true }
   ]
 }
